@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151515;
+}
+
+#app {
+  background-color: #898787;
+  width: 890px;
+  height: 568px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 32px;
+}
+
+header{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#valoresdeclarados {
+    display: flex;
+    width: 650px;
+    height: 180px;
+    background-color: #D9D9D970;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid red;
+
+}
+
+input{
+    width: 95px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+#titulo{
+    display: block;
+    border: 1px solid red;
+    width: 120px;
+    height: 180px;
+    text-align: center;
+    
+}
+
+#titulo h1{
+    justify-content: center;
+    font-size: 12px;
+}
+
+#valores{
+    display: grid;
+    grid-template-columns: 177px 177px 177px;
+    justify-items: center;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+}
+ 
