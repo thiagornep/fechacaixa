@@ -1,25 +1,25 @@
 function verificar() {
   window.alert("Testando a conexão....")
   var dinheiropraformatar = document.getElementById("dinheiroemmaos")
-  var dinheiro = parseInt(dinheiropraformatar.value)
+  var dinheiro = parseFloat(dinheiropraformatar.value)
   var ifoodformatar = document.getElementById("ifoodemmaos")
-  var ifood = parseInt(ifoodformatar.value)
+  var ifood = parseFloat(ifoodformatar.value)
   var pixformatar = document.getElementById("pixemmaos")
-  var pix = parseInt(pixformatar.value)
+  var pix = parseFloat(pixformatar.value)
   var sumupformatar = document.getElementById("dinheiroemmaos")
-  var sumup = parseInt(sumupformatar.value)
+  var sumup = parseFloat(sumupformatar.value)
   var pagseguroformatar = document.getElementById("dinheiroemmaos")
-  var pagseguro = parseInt(pagseguroformatar.value)
+  var pagseguro = parseFloat(pagseguroformatar.value)
   var ninefoodformatar = document.getElementById("dinheiroemmaos")
-  var ninefood = parseInt(ninefoodformatar.value)
+  var ninefood = parseFloat(ninefoodformatar.value)
 
   var soma =
-    parseInt(dinheiropraformatar.value) +
-    parseInt(ifoodformatar.value) +
-    parseInt(pixformatar.value) +
-    parseInt(sumupformatar.value) +
-    parseInt(pagseguroformatar.value) +
-    parseInt(ninefoodformatar.value)
-
-  res.innerHTML = `Detectamos anos R$  ${soma} .`
+    parseFloat(dinheiropraformatar.value) +
+    parseFloat(ifoodformatar.value) +
+    parseFloat(pixformatar.value) +
+    parseFloat(sumupformatar.value) +
+    parseFloat(pagseguroformatar.value) +
+    parseFloat(ninefoodformatar.value)
+  res.innerHTML = `Detectamos essa quantia em Dinheiro: R$  ${soma} .`
+  
 }
