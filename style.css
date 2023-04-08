@@ -5,57 +5,73 @@
 }
 
 body {
-  background-color: #151515;
-  font-family: ;
+  background-color: #a79df1;
+  font-family: 'Sofia Sans Condensed', sans-serif;
 }
 
 #app {
-  background-color: #898787;
+  background-color: #ffffff;
   width: 890px;
   height: 568px;
   margin: auto;
   margin-top: 80px;
   border-radius: 32px;
+  box-shadow: 33px 33px 33px;
 }
 
 header {
   text-align: center;
   margin-top: 25px;
+  padding: 29px;
 }
 
 #valoresdeclarados {
   display: flex;
   width: 650px;
   height: 180px;
-  background-color: #d9d9d970;
   margin: auto;
   margin-top: 50px;
-  border: 1px solid red;
+  background-color: chartreuse;
 }
 
 input {
   width: 95px;
   height: 30px;
-  border: 1px solid red;
 }
 
 #titulo {
   display: flex;
-  border: 1px solid red;
   width: 120px;
   height: 180px;
-  font-size: 13px;
+  font-size: 21px;
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  background-color: aqua;
 }
 
 #valores {
   display: grid;
   grid-template-columns: 177px 177px 177px;
-  justify-items: center;
-  border: 1px solid red;
-  justify-content: center;
+
   align-items: center;
+}
+
+
+
+
+#grupodespesas{
+
+  align-items: end;
+  background-color: aqua;
+  
+}
+
+
+
+
+
+#botao {
+  background-color: chartreuse;
+  width: 150px;
+  height: 30px;
 }

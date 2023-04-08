@@ -4,7 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@100;400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -22,26 +22,69 @@
 
       <main>
         <div id="valoresdeclarados">
-          <div id="titulo">VALORES DECLARADOS</div>
+          <div id="titulo">
+            VALORES<br />
+            CHECADOS
+          </div>
           <div id="valores">
-            <input type="number" name="" id="Dinheiro" placeholder="Dinheiro" />
-            <input type="number" name="" id="" placeholder="Ifood Online" />
-            <input type="number" name="" id="" placeholder="PIX" />
-            <input type="number" name="" id="" placeholder="Cartão Sumup" />
-            <input type="number" name="" id="" placeholder="Cartão PagSeguro" />
             <input
               type="number"
-              name=""
-              id=""
-              placeholder="99food/americanas"
+              name="dinheiroemmaos"
+              id="dinheiroemmaos"
+              placeholder="DINHEIRO"
             />
+            <input
+              type="number"
+              name="ifoodemmaos"
+              id="ifoodemmaos"
+              placeholder="IFOOD ONLINE"
+            />
+            <input
+              type="number"
+              name="pixemmaos"
+              id="pixemmaos"
+              placeholder="PIX"
+            />
+            <input
+              type="number"
+              name="sumupemmaos"
+              id="sumupemmaos"
+              placeholder="SUMUP"
+            />
+            <input
+              type="number"
+              name="pagseguroemmaos"
+              id="pagseguroemmaos"
+              placeholder="PAGSEGURO"
+            />
+            <input type="number" name="99emmaos" id="99emmaos" placeholder="99/AMERICANAS" />
           </div>
         </div>
-        <div id="caixas"></div>
-        <div id="despesas"></div>
+        <div id="grupodespesas">
+          <div id="caixas">
+            VALOR CAIXA 01
+            <input type="number" name="valorcaixa01" id="valorcaixa01" /> VALOR
+            CAIXA 02 <input type="number" name="valorcaixa02" id="valorcaixa01" />
+          </div>
+          <div id="despesas">
+            TAXA MOTOBOY
+            <input type="number" name="valorpagomotoboy" id="valorpagomotoboy" />
+            DESPESA EXTRA
+            <input type="number" name="despesasextras" id="despesasextras" />
+          </div>
+        </div>
       </main>
 
-      <footer></footer>
+      <footer>
+        <div id="res">Analisaremos assim que clicar</div>
+        <input
+          type="button"
+          id="botao"
+          value="Verificar Divergência"
+          onclick="verificar()"
+        />
+      </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
