@@ -30,6 +30,8 @@ function verificar() {
   console.log(ninenine)
   console.log(soma)
 
-
-  res.innerHTML = `Detectamos essa quantia em Dinheiro: R$  ${soma} .`
+  res.innerHTML = `Valor dos Caixas(SISTEMA CONSUMER): R$ ${soma} .`
+  res.innerHTML = `Valor declarado: R$  ${soma} .`
+  res.innerHTML = `Total de despesas: R$  ${soma} .`
+  res.innerHTML = `O SEU CAIXA FOI FINALIZADO COM SALDO: +/- R$  ${soma} .`
 }

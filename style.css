@@ -6,7 +6,7 @@
 
 body {
   background-color: #a79df1;
-  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-family: "Sofia Sans Condensed", sans-serif;
 }
 
 #app {
@@ -30,20 +30,19 @@ header {
   width: 650px;
   height: 130px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 25px;
   background-color: chartreuse;
 }
 
 input {
   width: 69px;
   height: 25px;
-
 }
 
 #titulo {
   display: flex;
   width: 120px;
-  height: 180px;
+  height: 130px;
   font-size: 21px;
   text-align: center;
   justify-content: center;
@@ -57,29 +56,22 @@ input {
   align-items: center;
 }
 
-
-
-
-#grupodespesas{
+#grupodespesas {
   display: grid;
-  
+
   margin: auto;
   width: 450px;
-  background-color: chocolate;  
+  background-color: chocolate;
 }
-
-
-
-
 
 #botao {
   background-color: chartreuse;
   width: 150px;
   height: 30px;
+  margin-left: 40%;
 }
 
-
-#res{
+#res {
   background-color: aqua;
   text-align: center;
   padding: 20px;
