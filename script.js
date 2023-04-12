@@ -30,8 +30,6 @@ function verificar() {
   console.log(ninenine)
   console.log(soma)
 
-  // var soma = parseFloat(dinheiro) + parseFloat(ifood)
-  //soma = soma.toFixed(2)
 
   res.innerHTML = `Detectamos essa quantia em Dinheiro: R$  ${soma} .`
 }
