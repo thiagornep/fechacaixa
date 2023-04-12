@@ -71,8 +71,16 @@ input {
   margin-left: 40%;
 }
 
-#res {
+.res {
   background-color: aqua;
   text-align: center;
-  padding: 20px;
+  padding: 2.5px;
+  font-size: 15px;
+}
+
+#resultadofinal{
+  font-size: 25px;
+  background-color: aqua;
+  text-align: center;
+  padding: 2.5px;
 }
