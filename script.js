@@ -21,7 +21,7 @@ function verificar() {
 
   //Variável que soma VALORES CHECADOS
   let soma = dinheiro + ifood + pix + sumup + pagseguro + ninenine
-  //console.log de teste de input
+  //console.log de teste de input,
   console.log(dinheiro)
   console.log(ifood)
   console.log(pix)
