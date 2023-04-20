@@ -36,8 +36,14 @@ function verificar() {
   caixa02 = Number(caixa02.value)
   let somadecaixa = caixa01 + caixa02
 
+  let taxamotoboy = document.getElementById("valorpagomotoboy")
+  taxamotoboy = Number(taxamotoboy.value)
+  let despesaextra = document.getElementById("despesasextras")
+  despesaextra = Number(despesaextra.value)
+  let somadespesas = taxamotoboy + despesaextra
+
   rescaixa.innerHTML = `Valor dos Caixas(SISTEMA CONSUMER): R$ ${somadecaixa} .`
   resdeclarado.innerHTML = `Valor declarado: R$  ${soma} .`
-  resdespesas.innerHTML = `Total de despesas: R$  ${soma} .`
+  resdespesas.innerHTML = `Total de despesas: R$  ${somadespesas} .`
   resultadofinal.innerHTML = `O SEU CAIXA FOI FINALIZADO COM SALDO: +/- R$  ${soma} .`
 }
