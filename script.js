@@ -30,7 +30,13 @@ function verificar() {
   console.log(ninenine)
   console.log(soma)
 
-  rescaixa.innerHTML = `Valor dos Caixas(SISTEMA CONSUMER): R$ ${soma} .`
+  let caixa01 = document.getElementById("valorcaixa01")
+  caixa01 = Number(caixa01.value)
+  let caixa02 = document.getElementById("valorcaixa02")
+  caixa02 = Number(caixa02.value)
+  let somadecaixa = caixa01 + caixa02
+
+  rescaixa.innerHTML = `Valor dos Caixas(SISTEMA CONSUMER): R$ ${somadecaixa} .`
   resdeclarado.innerHTML = `Valor declarado: R$  ${soma} .`
   resdespesas.innerHTML = `Total de despesas: R$  ${soma} .`
   resultadofinal.innerHTML = `O SEU CAIXA FOI FINALIZADO COM SALDO: +/- R$  ${soma} .`
