@@ -42,8 +42,13 @@ function verificar() {
   despesaextra = Number(despesaextra.value)
   let somadespesas = taxamotoboy + despesaextra
 
+  let total = somadespesas + soma
+  let divergecia = total - somadecaixa
+
   rescaixa.innerHTML = `Valor dos Caixas(SISTEMA CONSUMER): R$ ${somadecaixa} .`
-  resdeclarado.innerHTML = `Valor declarado: R$  ${soma} .`
+  resdeclarado.innerHTML = `Valor declarado: R$  ${total} .`
   resdespesas.innerHTML = `Total de despesas: R$  ${somadespesas} .`
+  resdespesas.innerHTML = `divergencia R$  ${divergecia} .`
+
   resultadofinal.innerHTML = `O SEU CAIXA FOI FINALIZADO COM SALDO: +/- R$  ${soma} .`
 }
