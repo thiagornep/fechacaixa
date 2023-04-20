@@ -37,25 +37,20 @@ header {
   padding: 29px;
 }
 
-.valoresdeclarados {
+.form-box {
+  border-radius: 5px 5px 0px 0px;
   display: flex;
   width: 650px;
-  height: 130px;
+  height: 99px;
   margin: auto;
-  margin-top: 25px;
-  background-color: chartreuse;
+  background-color: rgb(185, 213, 157);
 }
 
-input {
-  width: 69px;
-  height: 25px;
-}
-
-#titulo {
+#categoria {
   display: flex;
   width: 120px;
-  height: 130px;
-  font-size: 21px;
+  height: 110px;
+  font-size: 17px;
   text-align: center;
   justify-content: center;
   flex-direction: column;
@@ -64,23 +59,41 @@ input {
 .valores {
   display: grid;
   grid-template-columns: 177px 177px 177px;
-
+  justify-content: center;
   align-items: center;
 }
 
-.valorcaixa {
+.valores input {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  width: 111px;
+  height: 20px;
+}
+
+.form-box-02 {
+  
   width: 650px;
   display: flex;
-  flex-wrap: wrap;
-  background-color: chartreuse;
+  }
+
+.form-box-02 input {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 98, 98);
+  width: 111px;
+  height: 20px;
 }
 
 #caixas {
-  background-color: blueviolet;
+  background-color: rgb(185, 213, 157);
   display: grid;
-  grid-template-columns: 177px 177px;
-  width: 50%;
+  grid-template-columns: 130px 177px;
+  width: 42%;
   align-items: center;
+  border-radius: 0px 0px 0px 5px;
+  padding-left: 4%;
+  padding-bottom: 2%;
 }
 
 #caixas p {
@@ -89,11 +102,14 @@ input {
 }
 
 #despesas {
-  background-color: rgb(248, 112, 112);
+  background-color: rgb(64, 0, 56);
   display: grid;
-  grid-template-columns: 177px 177px;
-  width: 50%;
+  grid-template-columns: 130px 177px;
+  width: 65%;
   align-items: center;
+  border-radius: 0px 0px 0px 0px;
+  padding-left: 4%;
+  padding-bottom: 2%;
 }
 
 #despesas p {
