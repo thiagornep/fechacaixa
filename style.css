@@ -80,7 +80,7 @@ header {
 .form-box-02 input {
   border: none;
   border-radius: 3px;
-  background-color: rgb(146, 98, 98);
+  background-color: rgb(255, 255, 255);
   width: 111px;
   height: 20px;
 }
@@ -99,22 +99,25 @@ header {
 #caixas p {
   display: flex;
   margin: auto;
+  
+  margin-left: 10px;
 }
 
 #despesas {
-  background-color: rgb(64, 0, 56);
+  background-color: rgb(185, 213, 157);
   display: grid;
   grid-template-columns: 130px 177px;
   width: 65%;
   align-items: center;
   border-radius: 0px 0px 0px 0px;
-  padding-left: 4%;
+  padding-left: 10%;
   padding-bottom: 2%;
 }
 
 #despesas p {
   display: flex;
   margin: auto;
+  margin-left: 10px;
 }
 
 #botao {
