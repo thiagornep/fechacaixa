@@ -50,5 +50,11 @@ function verificar() {
   resdespesas.innerHTML = `Total de despesas: R$  ${somadespesas} .`
   resdespesas.innerHTML = `divergencia R$  ${divergecia} .`
 
-  resultadofinal.innerHTML = `O SEU CAIXA FOI FINALIZADO COM SALDO: +/- R$  ${soma} .`
+  if (divergecia < 0) {
+    resultadofinal.innerHTML = `O SEU CAIXA FOI FINALIZADO COM SALDO DIVERGENTE:  R$  ${divergecia} .`
+  } else if (divergecia > 0) {
+    resultadofinal.innerHTML = `O SEU CAIXA FOI FINALIZADO COM SALDO POSITIVO:  R$  ${divergecia} .`
+  } else {
+    resultadofinal.innerHTML = `O SEU CAIXA FOI FINALIZADO COM SUCESSO R$  ${divergecia} .`
+  }
 }
