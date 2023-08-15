@@ -16,28 +16,28 @@
   <body>
     <div id="app">
       <header>
-        <h1>FECHAMENTO DE CAIXA return</h1>
+        <h1>FECHAMENTO DE CAIXA</h1>
         <h2>INFORME OS VALORES PARA FECHAMENTO DO SEU CAIXA</h2>
       </header>
 
       <main>
         <div class="form-box">
           <div id="categoria">
-            VALORES<br />
-            CHECADOS
+            Valores<br />
+            Conferidos 🆗
           </div>
           <div class="valores">
             <input
               type="number"
               name="dinheiroemmaos"
               id="dinheiroemmaos"
-              placeholder="DINHEIRO"
+              placeholder="Dinheiro"
             />
             <input
               type="number"
               name="ifoodemmaos"
               id="ifoodemmaos"
-              placeholder="IFOOD ONLINE"
+              placeholder="Ifood Online"
             />
             <input
               type="number"
@@ -49,51 +49,70 @@
               type="number"
               name="sumupemmaos"
               id="sumupemmaos"
-              placeholder="SUMUP"
+              placeholder="Sumup"
             />
             <input
               type="number"
               name="pagseguroemmaos"
               id="pagseguroemmaos"
-              placeholder="PAGSEGURO"
+              placeholder="Pagseguro"
             />
-            <input type="number" name="nineemmaos" id="nineemmaos" placeholder="99/AMERICANAS" />
           </div>
         </div>
         <div class="form-box-02">
           <div id="caixas">
             <div>
-              <p>VALOR CAIXA: 01</p>
-              <input type="number" name="valorcaixa01" id="valorcaixa01" />
-            </div> <div>
-              <p>
-                VALOR
-                CAIXA: 02
-              </p> <input type="number" name="valorcaixa02" id="valorcaixa02" />
+              <p>Total Faturado 01:</p>
+              <input
+                type="number"
+                name="valorcaixa01"
+                id="valorcaixa01"
+                placeholder="R$ 00,00"
+              />
+            </div>
+            <div>
+              <p>Total Faturado 02:</p>
+              <input
+                type="number"
+                name="valorcaixa02"
+                id="valorcaixa02"
+                placeholder="R$ 00,00"
+              />
             </div>
           </div>
           <div id="despesas">
             <div>
-              <p>TAXA MOTOBOY</p>
-              <input type="number" name="valorpagomotoboy" id="valorpagomotoboy" />
+              <p>Taxas Motoboy (-)</p>
+              <input
+                type="number"
+                name="valorpagomotoboy"
+                id="valorpagomotoboy"
+                placeholder="R$ 00,00"
+              />
             </div>
             <div>
-              <p>DESPESA EXTRA</p>
-              <input type="number" name="despesasextras" id="despesasextras" />
+              <p>Despesas Extras (-)</p>
+              <input
+                type="number"
+                name="despesasextras"
+                placeholder="R$ 00,00"
+                id="despesasextras"
+              />
             </div>
           </div>
         </div>
       </main>
 
       <footer>
-        <div class="res" id="rescaixa">Analisaremos assim que clicar</div>
+        <div class="res" id="rescaixa">Após preencher os campos acima, confirmar o fechamento no botão abaixo</div>
         <div class="res" id="resdeclarado"></div>
         <div class="res" id="resdespesas"></div>
+        <div class="res" id="totaldetaxas"></div>
         <div class="resultadofinal" id="resultadofinal"></div>
         <input
           type="button"
           id="botao"
-          value="Verificar Divergência"
+          value="Confirmar fechamento"
           onclick="verificar()"
         />
       </footer>

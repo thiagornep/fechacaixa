@@ -1,5 +1,5 @@
 function verificar() {
-  window.alert("Testando a conexão....")
+  window.alert("Processando Input....")
   //recebendo as informações do input
   let dinheiro = document.getElementById("dinheiroemmaos")
   dinheiro = Number(dinheiro.value)
@@ -16,18 +16,15 @@ function verificar() {
   let pagseguro = document.getElementById("pagseguroemmaos")
   pagseguro = Number(pagseguro.value)
   //recebendo as informações do input
-  let ninenine = document.getElementById("nineemmaos")
-  ninenine = Number(nineemmaos.value)
 
   //Variável que soma VALORES CHECADOS
-  let soma = dinheiro + ifood + pix + sumup + pagseguro + ninenine
+  let soma = dinheiro + ifood + pix + sumup + pagseguro
   //console.log de teste de input,
   console.log(dinheiro)
   console.log(ifood)
   console.log(pix)
   console.log(sumup)
   console.log(pagseguro)
-  console.log(ninenine)
   console.log(soma)
 
   let caixa01 = document.getElementById("valorcaixa01")
@@ -48,7 +45,8 @@ function verificar() {
   rescaixa.innerHTML = `Valor dos Caixas(SISTEMA CONSUMER): R$ ${somadecaixa} .`
   resdeclarado.innerHTML = `Valor declarado: R$  ${total} .`
   resdespesas.innerHTML = `Total de despesas: R$  ${somadespesas} .`
-  resdespesas.innerHTML = `divergencia R$  ${divergecia} .`
+  totaldetaxas.innerHTML = `Valor de Taxas: (-) R$  ${taxamotoboy}`
+  resdespesas.innerHTML = `Valor divergente : R$ ${divergecia} .`  
 
   if (divergecia < 0) {
     resultadofinal.innerHTML = `O SEU CAIXA FOI FINALIZADO COM SALDO DIVERGENTE:  R$  ${divergecia} .`

@@ -29,6 +29,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   padding: 1rem 0;
+  margin-bottom: 2%;
 }
 
 header {
@@ -72,10 +73,9 @@ header {
 }
 
 .form-box-02 {
-  
   width: 650px;
   display: flex;
-  }
+}
 
 .form-box-02 input {
   border: none;
@@ -99,7 +99,7 @@ header {
 #caixas p {
   display: flex;
   margin: auto;
-  
+
   margin-left: 10px;
 }
 
@@ -122,6 +122,7 @@ header {
 
 #botao {
   background-color: chartreuse;
+  margin-top: 2%;
   width: 150px;
   height: 30px;
   margin-left: 40%;
